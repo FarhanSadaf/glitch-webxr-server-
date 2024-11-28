@@ -16,9 +16,6 @@ wss.on('connection', ws => {
             // Attempt to parse the message as JSON
             const data = JSON.parse(message);
             console.log('Received movement data:', data);
-
-            // Respond to the client
-            ws.send(JSON.stringify({ status: 'success', data }));
         } catch (error) {
             console.error('Failed to parse message:', message);
         }
