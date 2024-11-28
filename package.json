@@ -1,0 +1,18 @@
+{
+    "name": "websocket-server",
+    "version": "0.1.0",
+    "description": "Getting the head and controller movement data from VR.",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "ws": "^8.0.0",
+      "express": "^4.18.2"
+    },
+    "engines": {
+      "node": "14.x"
+    },
+    "license": "MIT"
+  }
+  
