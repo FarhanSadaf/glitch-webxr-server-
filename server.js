@@ -77,6 +77,12 @@ app.get('/download', (req, res) => {
     }
 });
 
+// Endpoint '/clear' to clear the stored data
+app.get('/clear', (req, res) => {
+    sensorData = [];
+    res.send('Data cleared.');
+});
+
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
