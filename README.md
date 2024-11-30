@@ -1,4 +1,5 @@
-# Server-side code of [`webxr-vr`](https://github.com/FarhanSadaf/webxr-vr), hosted on `Glitch`
+# WebXR sensor data collection server 
+Server-side code of [webxr-vr](https://github.com/FarhanSadaf/webxr-vr), hosted on `Glitch`.
 
 ## Endpoints
 - WebSocket: `wss://[project_name].glitch.me/`
